@@ -15,9 +15,8 @@
   - Demo: Openshift Basic Developer Operation
 
 - [DevOps and CI/CD](devops.md)
-  - DevOps and CI/CD Concept
-  - Everything as-a-Code
-  - Demo: Build and Deploy with CI/CD Tool
+  - Presentation ([devops.pptx](presentation/devops.pptx))
+  - Demo: [Build and Deploy with CI/CD Tool](https://github.com/rhthsa/openshift-demo/blob/main/ci-cd-with-jenkins.md)
 
 - [Application Modernization](appmodern.md)
   - Develop New Applications The Modern Way
