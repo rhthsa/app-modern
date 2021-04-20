@@ -4,9 +4,9 @@
 - [Introduction to Container Technology](#introduction-to-container-technology)
   - [Presentation](#presentation)
   - [Setup](#setup)
-- [Basic Docker Command](#basic-docker-command)
-- [Create Database Container](#create-database-container)
-- [Connect postgres container from local development](#connect-postgres-container-from-local-development)
+  - [Basic Docker Command](#basic-docker-command)
+  - [Create Database Container](#create-database-container)
+  - [Connect postgres container from local development](#connect-postgres-container-from-local-development)
   - [Run More Than 1 Container with Docker Compose](#run-more-than-1-container-with-docker-compose)
 
 <!-- /TOC -->
@@ -22,7 +22,7 @@ Presentation ([container.pptx](presentation/container.pptx))
   - for windows10 home edition --> https://docs.docker.com/docker-for-windows/install-windows-home/
 - Source Code --> folder container
 
-# Basic Docker Command
+## Basic Docker Command
 
 - start docker desktop
 - get docker info
@@ -59,7 +59,7 @@ openzipkin/zipkin                                                               
 $ docker ps
 ```
 
-# Create Database Container
+## Create Database Container
 - start docker with below command for start postgres database with persistence storage (local path)
   - expose port 5432
   - name of container is 'postgres'
@@ -110,7 +110,7 @@ root@f83e262793db:/# exit
 exit
 ```
 
-# Connect postgres container from local development
+## Connect postgres container from local development
 
 - source code in folder container
 - review application.properties in src/main/resources, url is localhost
