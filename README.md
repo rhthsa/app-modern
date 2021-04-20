@@ -14,7 +14,7 @@
   - Basic concept of Application Deployment on Container Orchestration Platform 
   - Demo: Openshift Basic Developer Operation
 
-- [DevOps and CI/CD](devops.md)
+- [DevOps and CI/CD](https://github.com/rhthsa/openshift-demo/blob/main/ci-cd-with-jenkins.md)
   - Presentation ([devops.pptx](presentation/devops.pptx))
   - Demo: [Build and Deploy with CI/CD Tool](https://github.com/rhthsa/openshift-demo/blob/main/ci-cd-with-jenkins.md)
 
